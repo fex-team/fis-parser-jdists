@@ -1,5 +1,5 @@
 {
-  "name": "fis-parser-region",
+  "name": "fis-postprocessor-region",
   "title": "fis parser region",
   "description": "fis parser plugin",
   "version": "0.0.1",

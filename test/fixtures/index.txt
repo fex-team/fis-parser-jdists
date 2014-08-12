@@ -1,0 +1,1 @@
+<script src="http://localhost/test.js"></script>

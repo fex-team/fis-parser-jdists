@@ -1,5 +1,8 @@
-fis-parser-region
+fis-postprocessor-region
 =================
+
+[![Build Status](https://img.shields.io/travis/fex-team/fis-postprocessor-region/master.svg)](https://travis-ci.org/fex-team/fis-postprocessor-region)
+[![NPM version](https://img.shields.io/npm/v/fis-postprocessor-region.svg)](http://badge.fury.io/js/fis-postprocessor-region)
 
 fis 插件 - 处理区块裁剪
 

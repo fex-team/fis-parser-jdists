@@ -1,0 +1,20 @@
+{
+  "name": "fis-parser-region",
+  "title": "fis parser region",
+  "description": "fis parser plugin",
+  "version": "0.0.1",
+  "homepage": "https://github.com/fex-team/fis-parser-region",
+  "main": "src/index.js",
+  "author": "zswang",
+  "keywords": ["fis", "region"],
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*",
+    "jshint": "*"
+  },
+  "scripts": {
+    "test": "mocha -R spec && npm run coverage",
+    "lint": "jshint src/*.js *.json"
+  }
+}

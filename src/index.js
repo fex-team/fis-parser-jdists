@@ -1,9 +1,8 @@
-'use strict';
-
 var path = require('path');
 var fs = require('fs');
 
 module.exports = function(content, file, conf) {
+  'use strict';
   var removeList = conf["remove-region"] || [ 'debug' ];
 
   function removeRegion(all, region) {

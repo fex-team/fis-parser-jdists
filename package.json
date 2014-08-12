@@ -2,12 +2,16 @@
   "name": "fis-postprocessor-region",
   "title": "fis parser region",
   "description": "fis parser plugin",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "homepage": "https://github.com/fex-team/fis-parser-region",
   "main": "src/index.js",
   "author": "zswang",
   "keywords": ["fis", "region"],
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fex-team/fis-parser-region.git"
+  },
   "devDependencies": {
     "mocha": "*",
     "should": "*",
@@ -15,6 +19,6 @@
   },
   "scripts": {
     "test": "mocha -R spec && npm run coverage",
-    "lint": "jshint src/*.js *.json"
+    "lint": "jshint src/*.js"
   }
 }

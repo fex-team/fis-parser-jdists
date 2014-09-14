@@ -22,6 +22,11 @@ module.exports = function(content, file, conf) {
   }
 
   return content.replace(
+    /function\s*\(\s*\)\s*\{\s*\/\*\!([\s\S]*?)\*\/\s*\}/g, // 处理函数注释字符串
+    function(all, text) {
+      return JSON.stringify(text);
+    }
+  ).replace(
     /<!--([\w-]+)-->[\s\S]*<!--\/(\1)-->/g,
     removeRegion
   ).replace(

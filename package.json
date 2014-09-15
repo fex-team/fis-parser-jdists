@@ -2,7 +2,7 @@
   "name": "fis-postprocessor-region",
   "title": "fis parser region",
   "description": "fis parser plugin",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "homepage": "https://github.com/fex-team/fis-postprocessor-region",
   "main": "src/index.js",
   "author": "zswang",

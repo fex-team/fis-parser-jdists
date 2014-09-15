@@ -39,6 +39,17 @@ console.log(debug);
 
 ```
 
+### 函数注释字符 区域定义
+
+```js
+function() {/*!
+<div>
+  <a href="#{url}">#{title}</a>
+  <button>cancel</button><button>download</button>
+</div>
+  */}
+```
+
 ## 使用
 
 安装 `npm install fis-parse-region`

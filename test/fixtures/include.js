@@ -1,4 +1,4 @@
-void function() {
-/*<include include.txt>*/
+(function() {
+/*<jdists import="include.txt" />*/
   console.log('hello world!');
-}();
+})();

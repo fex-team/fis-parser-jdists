@@ -36,7 +36,6 @@ console.log(debug);
 <!--debug-->
 <span>测试版本，请勿对外公开</span>
 <!--/debug-->
-
 ```
 
 ### 函数注释字符 区域定义
@@ -52,11 +51,13 @@ function() {/*!
 
 ## 使用
 
-安装 `npm install fis-parse-region`
+安装 `npm install fis-postprocessor-region`
 
 ```javascript
-fis.config.set('modules.parser.js', 'fis-parser-region');
+fis.config.set('modules.parser.js', 'fis-postprocessor-region');
 fis.config.set('settings.parser', [{
-  "remove-region": ["debug"]
+  "remove": "debug,test"
 }]);
 ```
+
+更详细的用法请参考：https://github.com/zswang/jdists

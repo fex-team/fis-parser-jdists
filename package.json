@@ -2,23 +2,35 @@
   "name": "fis-postprocessor-region",
   "title": "fis parser region",
   "description": "fis parser plugin",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "homepage": "https://github.com/fex-team/fis-postprocessor-region",
-  "main": "src/index.js",
-  "author": "zswang",
-  "keywords": ["fis", "region"],
+  "main": "index.js",
+  "author": {
+    "name": "zswang",
+    "url": "http://weibo.com/zswang"
+  },
+  "keywords": ["fis", "region", "jdists"],
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/fex-team/fis-postprocessor-region.git"
   },
-  "devDependencies": {
-    "mocha": "*",
-    "should": "*",
-    "jshint": "*"
+  "dependencies": {
+    "jdists": "1.0.3"
   },
+  "devDependencies": {
+    "mocha": "2.0.1",
+    "istanbul": "0.3.17",
+    "should": "4.1.0",
+    "jshint": "2.5.8"
+  },
+  "files": [
+    "index.js",
+    "lib"
+  ],
   "scripts": {
-    "test": "mocha -R spec && npm run coverage",
-    "lint": "jshint src/*.js"
+    "test": "istanbul cover --hook-run-in-context node_modules/mocha/bin/_mocha -- -R spec",
+    "lint": "jshint src/*.js",
+    "dist": "jdists src/region.js -o lib/region.js"
   }
 }

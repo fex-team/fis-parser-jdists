@@ -1,7 +1,4 @@
-void function(exports) {
-  
-
-  exports.hello = function() {
-    
+(function (exports) {
+  exports.hello = function () {
   }
-}(this);
+})(this);

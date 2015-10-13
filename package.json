@@ -2,7 +2,7 @@
   "name": "fis-postprocessor-region",
   "title": "fis parser region",
   "description": "fis parser plugin",
-  "version": "0.0.4",
+  "version": "1.0.0",
   "homepage": "https://github.com/fex-team/fis-postprocessor-region",
   "main": "index.js",
   "author": {
@@ -16,7 +16,7 @@
     "url": "https://github.com/fex-team/fis-postprocessor-region.git"
   },
   "dependencies": {
-    "jdists": "1.0.3"
+    "jdists": "1.0.14"
   },
   "devDependencies": {
     "mocha": "2.0.1",

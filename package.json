@@ -1,9 +1,9 @@
 {
-  "name": "fis-preprocessor-region",
+  "name": "fis-parser-jdists",
   "title": "fis parser region",
   "description": "fis parser plugin",
   "version": "1.0.0",
-  "homepage": "https://github.com/fex-team/fis-preprocessor-region",
+  "homepage": "https://github.com/fex-team/fis-parser-jdists",
   "main": "index.js",
   "author": {
     "name": "zswang",
@@ -13,7 +13,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/fex-team/fis-preprocessor-region.git"
+    "url": "https://github.com/fex-team/fis-parser-jdists.git"
   },
   "dependencies": {
     "jdists": "1.0.14"
@@ -31,6 +31,6 @@
   "scripts": {
     "test": "istanbul cover --hook-run-in-context node_modules/mocha/bin/_mocha -- -R spec",
     "lint": "jshint src/*.js",
-    "dist": "jdists src/region.js -o lib/region.js"
+    "dist": "jdists src/jdists.js -o lib/jdists.js"
   }
 }

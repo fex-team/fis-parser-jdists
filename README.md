@@ -1,8 +1,8 @@
-fis-postprocessor-region
+fis-parser-jdists
 =================
 
-[![Build Status](https://img.shields.io/travis/fex-team/fis-postprocessor-region/master.svg)](https://travis-ci.org/fex-team/fis-postprocessor-region)
-[![NPM version](https://img.shields.io/npm/v/fis-postprocessor-region.svg)](http://badge.fury.io/js/fis-postprocessor-region)
+[![Build Status](https://img.shields.io/travis/fex-team/fis-parser-jdists/master.svg)](https://travis-ci.org/fex-team/fis-parser-jdists)
+[![NPM version](https://img.shields.io/npm/v/fis-parser-jdists.svg)](http://badge.fury.io/js/fis-parser-jdists)
 
 fis 插件 - 处理区块裁剪
 
@@ -51,10 +51,10 @@ function() {/*!
 
 ## 使用
 
-安装 `npm install fis-postprocessor-region`
+安装 `npm install fis-parser-jdists`
 
 ```javascript
-fis.config.set('modules.parser.js', 'fis-postprocessor-region');
+fis.config.set('modules.parser.js', 'fis-parser-jdists');
 fis.config.set('settings.parser', [{
   "remove": "debug,test"
 }]);

@@ -1,9 +1,9 @@
 {
-  "name": "fis-postprocessor-region",
+  "name": "fis-preprocessor-region",
   "title": "fis parser region",
   "description": "fis parser plugin",
   "version": "1.0.0",
-  "homepage": "https://github.com/fex-team/fis-postprocessor-region",
+  "homepage": "https://github.com/fex-team/fis-preprocessor-region",
   "main": "index.js",
   "author": {
     "name": "zswang",
@@ -13,7 +13,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/fex-team/fis-postprocessor-region.git"
+    "url": "https://github.com/fex-team/fis-preprocessor-region.git"
   },
   "dependencies": {
     "jdists": "1.0.14"

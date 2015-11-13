@@ -28,7 +28,7 @@ module.exports = function (content, file, conf) {
 
   return jdists.build(content, {
     fromString: true,
-    path: file.filename,
+    path: file.origin,
     remove: conf.remove,
     trigger: conf.trigger,
     config: conf.config

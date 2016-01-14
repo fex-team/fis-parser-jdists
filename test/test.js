@@ -9,7 +9,7 @@ describe('fixtures', function () {
     return /\.(html|js|css)$/i.test(item) && !/\.output\./.test(item);
   });
   items.forEach(function (input) {
-    input = path.join(testdir, input)
+    input = path.join(testdir, input);
     var output = input.replace(/\.(html|js|css)$/g, '.output.$1');
     var option = input.replace(/\.(html|js|css)$/g, '.json');
 
@@ -47,4 +47,31 @@ describe('fixtures', function () {
       }, {})
     );
   });
+});
+
+describe('options', function () {
+  global.fis = {
+    project: {
+      currentMedia: function () {
+        return 'qa';
+      }
+    }
+  };
+
+  it('default trigger is current media', function () {
+    var input = path.join(testdir, 'temp.txt');
+    assert.equal(
+      'js',
+      fis_jdists('j<!--remove trigger="qa"-->dist<!--/remove-->s', {
+        origin: input,
+        filename: path.basename(input),
+        dirname: testdir,
+        ext: path.basename(input),
+        isText: function () {
+          return true;
+        }
+      }, {})
+    );
+  });
+
 });

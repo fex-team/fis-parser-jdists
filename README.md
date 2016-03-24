@@ -51,6 +51,8 @@ function() {/*!
 
 ## 使用
 
+### fis2
+
 安装 `npm install fis-parser-jdists`
 
 ```javascript
@@ -58,6 +60,16 @@ fis.config.set('modules.parser.js', 'fis-parser-jdists');
 fis.config.set('settings.parser', [{
   "remove": "debug,test"
 }]);
+```
+
+### fis3 
+
+```
+fis.match('*.js', {
+  parser: fis.plugin('jdists', {
+    remove: "debug,test"
+  })
+})
 ```
 
 更详细的用法请参考：https://github.com/zswang/jdists

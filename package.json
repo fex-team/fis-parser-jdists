@@ -2,7 +2,7 @@
   "name": "fis-parser-jdists",
   "title": "fis parser region",
   "description": "fis parser plugin",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "homepage": "https://github.com/fex-team/fis-parser-jdists",
   "main": "index.js",
   "author": {
@@ -16,7 +16,7 @@
     "url": "https://github.com/fex-team/fis-parser-jdists.git"
   },
   "dependencies": {
-    "jdists": "^2.0.0"
+    "jdists": "^2.0.1"
   },
   "devDependencies": {
     "mocha": "2.0.1",

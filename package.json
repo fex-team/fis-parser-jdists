@@ -2,7 +2,7 @@
   "name": "fis-parser-jdists",
   "title": "fis parser region",
   "description": "fis parser plugin",
-  "version": "2.1.7",
+  "version": "2.2.0",
   "homepage": "https://github.com/fex-team/fis-parser-jdists",
   "main": "index.js",
   "author": {

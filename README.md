@@ -4,7 +4,7 @@ fis-parser-jdists
 [![Build Status](https://img.shields.io/travis/fex-team/fis-parser-jdists/master.svg)](https://travis-ci.org/fex-team/fis-parser-jdists)
 [![NPM version](https://img.shields.io/npm/v/fis-parser-jdists.svg)](http://badge.fury.io/js/fis-parser-jdists)
 
-fis 插件 - 处理区块裁剪
+fis 插件 - jdists 代码块预处理
 
 ## 背景
 
